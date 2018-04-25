@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     var player: AVAudioPlayer?
     
     func playSound() {
-        guard let url = Bundle.main.url(forResource: "soundName", withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: "buttonPush", withExtension: "mp3") else { return }
         
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
@@ -38,6 +38,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        playSound()
+    }
 
 }
 
