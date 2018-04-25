@@ -12,6 +12,7 @@
 		8464FAA220904FD900F9B275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8464FAA020904FD900F9B275 /* Main.storyboard */; };
 		8464FAA420904FD900F9B275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8464FAA320904FD900F9B275 /* Assets.xcassets */; };
 		8464FAA720904FD900F9B275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8464FAA520904FD900F9B275 /* LaunchScreen.storyboard */; };
+		8464FAAF2090525800F9B275 /* buttonPush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8464FAAE2090525800F9B275 /* buttonPush.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8464FAA320904FD900F9B275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8464FAA620904FD900F9B275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8464FAA820904FD900F9B275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8464FAAE2090525800F9B275 /* buttonPush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonPush.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8464FA9C20904FD900F9B275 /* AppDelegate.swift */,
 				8464FA9E20904FD900F9B275 /* ViewController.swift */,
 				8464FAA020904FD900F9B275 /* Main.storyboard */,
+				8464FAAE2090525800F9B275 /* buttonPush.mp3 */,
 				8464FAA320904FD900F9B275 /* Assets.xcassets */,
 				8464FAA520904FD900F9B275 /* LaunchScreen.storyboard */,
 				8464FAA820904FD900F9B275 /* Info.plist */,
@@ -126,6 +129,7 @@
 				8464FAA720904FD900F9B275 /* LaunchScreen.storyboard in Resources */,
 				8464FAA420904FD900F9B275 /* Assets.xcassets in Resources */,
 				8464FAA220904FD900F9B275 /* Main.storyboard in Resources */,
+				8464FAAF2090525800F9B275 /* buttonPush.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
